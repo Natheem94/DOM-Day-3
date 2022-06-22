@@ -1,0 +1,31 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th,
+td {
+  width: 200px;
+  margin: auto 0px;
+}
+
+table {
+  margin-bottom: 20px !important;
+}
+
+.active {
+  border: 3px solid blue;
+}
+.full-width {
+  width: 100%;
+}
+.centered {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px auto;
+}
+.pull-right {
+  margin-left: 50px;
+}
